@@ -15,7 +15,7 @@ def speak(text):
 
 #i have used gemini ai here because open ai is paid try to run it also
 # def aiprocess(command):
-#     client=genai.configure(api_key=os.environ["AIzaSyCW4W9VuJ0gNYa03Aj2v4NMohuXqF9h4Jo"])
+#     genai.configure(api_key=os.environ.get("GEMINI_API_KEY", "your-gemini-api-key"))
 
 #     model = genai.GenerativeModel('gemini-1.5-flash')
 
